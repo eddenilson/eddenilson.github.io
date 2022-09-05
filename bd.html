@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <script src="index.js"></script>
+    <script src="bd.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,12 @@
         <a href="Projetos.html"> Projetos</a>
         <a href="bd.html">Banco</a>
     </header>
- 
-    
+    <form>
+        <input type="text" id="nome" placeholder="Nome Completo"></br>
+        <input type="text" id="endereco" placeholder="Endereço"></br>
+        <input type="number" id="conta" placeholder="Conta"></br>
+        <input type="submit" value="Enviar"onClick="salvarCliente()">
+
+    </form>
 </body>
 </html>
