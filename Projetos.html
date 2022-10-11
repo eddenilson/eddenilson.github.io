@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="index.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Site do Edenilson</title>
+    </head>
+    <body>
+        <header>
+            <a href="index.html"> Inicio </a>
+            <a href="Projetos.html"> Projetos</a>
+            <a href="bd.html">Banco</a>
+            <a href="paginaTeste.html">teste</a>
+        </header>
+        <main>
+            <section>
+                <h1 id="cabeçalio">Olá mundo!!!</h1>
+                <input
+                    type="text"
+                    id="campoNome"
+                    class="entrada"
+                    placeholder="Insira seu nome!"
+                />
+                <input
+                    type="button"
+                    value="ok"
+                    class="entra"
+                    onClick="mostraNome()"
+                />
+                <h1 id="vazio"></h1>
+            </section>
+
+            <section>
+                <h1>Par ou Impar</h1>
+                <input
+                    type="text"
+                    id="campoNumero"
+                    class="entrada"
+                    placeholder="Insira seu numero!"
+                />
+                <input
+                    type="button"
+                    value="ok"
+                    class="entra"
+                    onClick="mostraNumero()"
+                />
+                <h1 id="mostra"></h1>
+            </section>
+
+            <section>
+                <h1>Insira o Valor entre 1 a 10</h1>
+                <input
+                    type="number"
+                    id="campoMinimo"
+                    class="entrada"
+                    placeholder="valor minimo ??"
+                />
+                <input
+                    type="number"
+                    id="campoMaximo"
+                    class="entrada"
+                    placeholder="valor máximo ??"
+                />
+                <input
+                    type="number"
+                    id="campoQuantidade"
+                    class="entrada"
+                    placeholder="Quantidade de números ??"
+                />
+                <input
+                    type="button"
+                    value="ok!"
+                    class="entra"
+                    onClick="mostraCampo()"
+                />
+                <h1 id="resultado"></h1>
+            </section>
+
+            <section>
+                <h1 id="normas-de-idade">Normas de Idade</h1>
+                <input
+                    type="number"
+                    id="idade"
+                    class="entrada"
+                    placeholder=" Qual sua idade?"
+                />
+                <input
+                    type="button"
+                    value="ok!"
+                    class="entra"
+                    onClick="regras()"
+                />
+                <h1 id="opcao"></h1>
+            </section>
+
+            <section>
+                <h1 id="gera-mega">Gera Mega</h1>
+                <input
+                    type="text"
+                    id="capoLimpo"
+                    class="entrada"
+                    placeholder="Numeros de Jogos"
+                />
+                <input
+                    type="text"
+                    id="capoGera"
+                    class="entrada"
+                    placeholder="Gerar"
+                />
+            </section>
+
+            <section>
+                <h1 id="calculadora">Calculadora</h1>
+                <input
+                    type="text"
+                    id="calcular1"
+                    class="entrada"
+                    placeholder="valor"
+                />
+                <input
+                    type="text"
+                    id="calcular2"
+                    class="entrada"
+                    placeholder="valor"
+                />
+                <input type="button" value="+" class="entra" onClick="soma()" />
+                <input
+                    type="button"
+                    value="-"
+                    class="entra"
+                    onClick="subtracao()"
+                />
+                <input
+                    type="button"
+                    value="*"
+                    class="entra"
+                    onClick="multiplicacao()"
+                />
+                <input
+                    type="button"
+                    value="/"
+                    class="entra"
+                    onClick="divisao()"
+                />
+                <h1 id="total">Total =</h1>
+            </section>
+        </main>
+    </body>
+</html>
