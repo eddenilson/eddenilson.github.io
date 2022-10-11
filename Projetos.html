@@ -12,6 +12,8 @@
         <a href="index.html"> Inicio </a>
         <a href="Projetos.html"> Projetos</a>
         <a href="bd.html">Banco</a>
+        <a href="nova página.html">teste</a>
+
     </header>
     <main>
         <section>
@@ -42,26 +44,38 @@
         <input type="number" id="idade"  class="entrada" placeholder=" Qual sua idade?">
         <input type="button" value="ok!" class="entra" onClick="regras()">
         <h1 id="opcao"> </h1>
-        </section>
-
-        <section>
-        <h1 id="gera-mega"> Gera Mega</h1>   
-        <input type="text" id="capoLimpo" class="entrada" placeholder="Numeros de Jogos">
-        <input type="text" id="capoGera" class="entrada" placeholder="Gerar">
+    </section>
+    
+    <section>
+        <h1 id="gera-mega"> <em>Gera Mega</em></h1>   
+        <input type="number" id="capoLimpo" class="entrada" placeholder="quantidade de numeros? ">
+        <input type="button" value="ok!" class="entra" onClick="mega()">
+        <!-- <input type="text" id="capoGera" class="entrada" > -->
+        <h1 id="open"> </h1>
+        
         </section> 
 
         <section> 
-        <h1 id="calculadora"> Calculadora</h1>
-        <input type="text" id="calcular1" class="entrada" placeholder="valor">
-        <input type="text" id="calcular2" class="entrada" placeholder="valor">
-        <input type="button" value="+" class="entra" onClick="soma()"> 
-        <input type="button" value="-" class="entra" onClick="subtracao()"> 
+        <h1 id="calculadora"> Calculadora </h1>
+        <ol>
+          <em>
+            <li>SOMA</li>
+            <li>SUBTRAÇÃO</li>
+            <li>MUlTIPLICAÇÃO</li>
+            <li>DIVISÃO</li>
+        </em>
+    </ol>
+    <input type="number" id="calcular1" class="entrada" placeholder="valor">
+    <input type="number" id="calcular2" class="entrada" placeholder="valor">
+    <input type="button" value="+" class="entra" onClick="soma()">
+    <input type="button" value="-" class="entra" onClick="subtracao()"> 
         <input type="button" value="*" class="entra" onClick="multiplicacao()"> 
         <input type="button" value="/" class="entra" onClick="divisao()"> 
         <h1 id="total">Total = </h1>
         </section>
     </main>
 
+          <ul><p>Esta é minha nova mensagem </br>Mas, outra <strong><em>mensagem!!!</em></strong></br>E outra <strong>mensagem!!!</strong></p></ul>
 
 </body>
 </html>

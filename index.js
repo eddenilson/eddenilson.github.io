@@ -22,9 +22,8 @@ function mostraCampo() {
 
     let numeroMaximo = parseFloat(document.getElementById("campoMaximo").value);
 
-    let quantidadeNumero = parseFloat(
-        document.getElementById("campoQuantidade").value
-    );
+    let quantidadeNumero = parseFloat(document.getElementById("campoQuantidade").value);
+
     let valores = [];
     for (let i = 0; i < quantidadeNumero; i++) {
         valores.push(
@@ -47,6 +46,31 @@ function regras() {
         document.getElementById("opcao").innerHTML = "aposentado";
     }
 }
+function mega(){
+    
+    let numerosJogo = parseFloat(document.getElementById ("capoLimpo").value)
+    
+    let jogo = [];
+        for (let i = 0; i < numerosJogo; i++) {
+        console.log(criaJogo())
+    };
+    function criaJogo() {
+        for (let i = 0; i < 6; i++) {
+            
+            let numero = Math.floor(Math.random() * 60) + 1
+            while (jogo.includes(numero)) {
+                numero = Math.floor(Math.random() * 60) + 1
+            };
+            jogo.push(numero)
+        };
+        jogo.sort(ordenaCrescente)
+        return jogo
+    };
+    function ordenaCrescente(n1, n2) {
+        return n1 - n2
+    }
+    document.getElementById("open").innerHTML = jogo;
+};
 
 function soma() {
     let calculo1 = parseFloat(document.getElementById("calcular1").value);

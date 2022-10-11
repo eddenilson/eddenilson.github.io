@@ -4,7 +4,7 @@ header{
     justify-content: space-around;
 }
 body{
-    background: #0077B6;
+    background: #5c5cb4;
     font-family: 'Roboto', sans-serif;
 
 }
@@ -14,20 +14,20 @@ main{
     flex-direction: row; 
 }
 section {
-    background-color: #ADE8F4;
+    background-color: #8682b9;
     margin: 5px;
     padding: 15px;
     border-radius: 10px;
 }
 .entrada {
     font-family: 'Roboto Slab', serif;
-    background-color:#b4c4c9;
+    background-color:#9b95be;
     padding: 5px;
     border-radius: 10px;
 }
 
 .entra {
-    background-color: #ccc6b3;
+    background-color: #0e2dda;
     border-radius: 10px;
 
 }
