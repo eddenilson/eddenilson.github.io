@@ -5,11 +5,58 @@ header{
     background-color: #5cb9cc;
 }
 .corNome{
+    padding: 10px 320px;
     color:red
 }
 body{
     background: #0077B6;
     font-family: 'Roboto', sans-serif, style="color: red;"
+
+}
+#wrap {
+    width: 960px;
+    height: 350px;
+    margin: auto;
+    background: #f3d8d8;
+    overflow:hidden;
+}
+#wrap ol li{
+    display:inline-block;
+    margin-right: 10px;
+
+}
+#wrap ol li a{
+font-size: 18px;
+color:#ff6660;
+text-decoration: none;
+}
+#wrap ol li a:hover{
+    text-decoration: underline;
+}
+#content{
+    float: left;
+    width: 460px;
+    background: yellow;
+    
+}
+#sidebar{
+    float: right;
+    width: 500px;
+    background: red;
+}
+ /* h1{ */
+    /* padding: 10px 320px; */
+/* } */
+ h2{
+    padding: 10px 10px 0px 100px;
+    color: #163136;
+}
+main h3{
+    padding: 5px 5px 10px 50px;
+}
+section em input {
+    padding:10px 100px 10px 100px; 
+    background: #ecd4e1;
 
 }
 main{
@@ -21,8 +68,8 @@ main{
 section {
     background-color: #ADE8F4;
     margin: 5px;
-    padding: 15px;
-    border-radius: 10px;
+    padding: 15px 10px 15px 10px;
+    /* border-radius: 10px; */
 }
 .entrada {
     font-family: 'Roboto Slab', serif;

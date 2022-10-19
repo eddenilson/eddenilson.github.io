@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="index.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css" />
      
         <title>Site do Edenilson</title>
@@ -14,34 +15,26 @@
             <a href="bd.html">Banco</a>
             <a href="paginaTeste.html">teste</a>
         </header>
-            <ol>
-                <h1 class="corNome">Greyci Oliver</h1> 
-                <h2><em>Tipos de trabalho :</em></h2> 
-                <!-- <input type="text" placeholder="Insira seu nome!" />
-                <input type="button" value="ok" /> -->
-            </ol>
-            <main>
-                <h3>costura</h3>
-                <input
-                    type="checkbox"
-                    class="button"
-                    id="botaoCostura"
-                    onclick="mudaStatusServiços('botaoCostura', 1)"
-                />
-                <h3>Gráfiica</h3>
-                <input
-                    type="checkbox"
-                    class="button"
-                    id="botaoGrafica"
-                    onclick="mudaStatusServiços('botaoGrafica', 2)"
-                />
-                <h3>Estética</h3>
-                <input
-                    type="checkbox"
-                    class="button"
-                    id="botaoMaquiagem"
-                    onclick="mudaStatusServiços('botaoEstetica', 3)"
-                />
-            </main>
+        <div id="wrap">
+            
+            <h1 class="corNome">Greyci Oliver</h1> 
+            <h2><em>Tipos de trabalho :</em></h2> 
+            <div id="content">
+                <ol>                         
+                        <li><a href="Projetos.html">Costura</a> </li>                                           
+                        <li><a href="Projetos.html">Estética</a> </li>                                           
+                        <li><a href="Projetos.html">Gráfica</a> </li>                                                           
+                </ol>
+            </div>
+            
+            <div id="sidebar">
+
+                <section><em>                    
+                    <input type="number" id="limp" placeholder="Digite o serviço">
+                    <input type="button" value="ok!" onClick="trabalho1()">                    
+                    <h1 id="na"></h1>
+                </em></section>
+            </div>       
+        </div>     
     </body>
 </html>
