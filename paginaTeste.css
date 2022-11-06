@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #bce0e7;
+}
+.corNome{
+    
+    display: flex;
+    margin-top: 50px;    
+    justify-content: space-around;    
+    /* background-color: #5cb9cc; */
+} 
+.tipoTrabalho{
+    display: flex;
+    justify-content: space-around;    
+    background-color:white;
+    margin: 0;
+}
+ nav ol{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.cor{
+    color: red;
+}
+#wrap{
+    /* display: flex; */
+    justify-content: space-around;
+    background-color:rgb(243, 223, 198);
+    width: 960px;
+    height: 300px;
+    margin: auto;
+}
+body{
+    background:white ;
+}
+.imagem{
+    width: 200px;
+    height: 150px;
+}
+
